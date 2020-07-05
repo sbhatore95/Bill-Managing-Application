@@ -1,0 +1,59 @@
+h1 {
+    color: grey;
+}
+
+.create-bill {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: 0;
+    background-color: #e9f0ec;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-left: -160px;
+}
+
+input[type="checkbox"]+label {
+    font-weight: bold;
+    font-size: small;
+}
+
+input[type="button"] {
+    color: white;
+    background-color: #f294a2;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.border-div {
+    background-color: #ffe0e5;
+    position: absolute;
+    width: 10px;
+    height: 250px;
+}
+
+#div-border-2 {
+    right: 0;
+}
+
+#div-border-1 {
+    float: left;
+}
