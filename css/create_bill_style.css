@@ -6,7 +6,7 @@ h1 {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 30%;
+    top: 40%;
     transform: translate(-50%, -50%);
     width: 300px;
 }
